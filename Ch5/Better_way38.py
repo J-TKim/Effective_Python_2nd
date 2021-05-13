@@ -75,3 +75,4 @@ result = defaultdict(counter, current) # __call__에 의존
 for key, amount in increments:
     result[key] += amount
 assert counter.added == 2
+
